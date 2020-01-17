@@ -11,6 +11,4 @@ server.get('/', (req, res) => {
   res.send('Welcome...slave')
 })
 
-server.use('/api/posts', postsRouter, commentsRouter)
-
 module.exports = server; 
