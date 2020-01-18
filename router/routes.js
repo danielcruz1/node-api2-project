@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const routePost = require('./routesPost');
+const routePost = require('./routePost');
 
 router.use('/posts', routePost)
 

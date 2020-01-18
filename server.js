@@ -6,7 +6,7 @@ server.use(express.json());
 
 const routes = require('./router/routes');
 
-// server.use('/api', routes);
+server.use('/api', routes);
 
 server.get('/', (req, res) => {
   res.send('Welcome...slave')
